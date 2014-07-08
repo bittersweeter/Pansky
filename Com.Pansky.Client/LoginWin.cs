@@ -23,7 +23,7 @@ namespace Com.Pansky.Client
     public partial class LoginWin : Form
     {
         public LoginWin()
-        {
+        { 
             InitializeComponent();
         }
     }
