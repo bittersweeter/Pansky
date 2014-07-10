@@ -15,7 +15,7 @@ namespace Com.Pansky.Client
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginWin());
+            Application.Run(new MainForm());
         }
     }
 }

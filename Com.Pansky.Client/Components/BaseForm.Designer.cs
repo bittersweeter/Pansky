@@ -1,6 +1,6 @@
-﻿namespace Com.Pansky.Client
+﻿namespace Com.Pansky.Client.Components
 {
-    partial class LoginWin
+    partial class BaseForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,22 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            this.kryptonManager1 = new ComponentFactory.Krypton.Toolkit.KryptonManager(this.components);
+            this.SuspendLayout();
+            // 
+            // BaseForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Name = "BaseForm";
+            this.Text = "BaseForm";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private ComponentFactory.Krypton.Toolkit.KryptonManager kryptonManager1;
     }
 }
